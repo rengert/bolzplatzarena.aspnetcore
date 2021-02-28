@@ -10,8 +10,8 @@ namespace Bolzplatzarena.AspNetCore.TagHelpers
 {
 	public class InlineStyleTagHelper : TagHelper
 	{
-		[HtmlAttributeName("href")]
-		public string Href { get; set; } = null !;
+		[HtmlAttributeName("src")]
+		public string Source { get; set; } = null !;
 
 		private IWebHostEnvironment HostingEnvironment { get; }
 		private IMemoryCache Cache { get; }
@@ -24,7 +24,7 @@ namespace Bolzplatzarena.AspNetCore.TagHelpers
 
 		public override async Task ProcessAsync(TagHelperContext context, TagHelperOutput output)
 		{
-			var path = Href;
+			var path = Source;
 			var fileContent = await Cache.GetOrCreateAsync("InlineStyleTagHelper-" + path, async entry => await Get(entry, path));
 
 			if (fileContent == null)
