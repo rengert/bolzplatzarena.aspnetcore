@@ -7,7 +7,7 @@
         <TargetFramework>net5.0</TargetFramework>
         <RootNamespace>Bolzplatzarena.AspNetCore</RootNamespace>
         <Nullable>enable</Nullable>
-        <PackageVersion>0.0.3</PackageVersion>
+        <PackageVersion>0.0.4</PackageVersion>
         <Title>Bolzplatzarena AspNetCore Helper</Title>
         <Authors>Thomas Renger</Authors>
         <Description>Provides a set of features to extend AspDotCore</Description>
@@ -16,6 +16,7 @@
         <RepositoryUrl>https://github.com/rengert/bolzplatzarena.aspnetcore</RepositoryUrl>
         <PackageTags>AspNetCore MVC Razor</PackageTags>
         <PackageLicenseUrl>https://opensource.org/licenses/MIT</PackageLicenseUrl>
+        <AssemblyName>Bolzplatzarena.AspNetCore</AssemblyName>
     </PropertyGroup>
 
     <ItemGroup>
