@@ -15,6 +15,7 @@
         <PackageProjectUrl>https://github.com/rengert/bolzplatzarena.aspnetcore</PackageProjectUrl>
         <RepositoryUrl>https://github.com/rengert/bolzplatzarena.aspnetcore</RepositoryUrl>
         <PackageTags>AspNetCore MVC Razor</PackageTags>
+        <PackageLicenseUrl>https://opensource.org/licenses/MIT</PackageLicenseUrl>
     </PropertyGroup>
 
     <ItemGroup>
