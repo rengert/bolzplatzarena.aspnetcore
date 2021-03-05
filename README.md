@@ -20,7 +20,6 @@ Provides a set of features to extend AspNetCore
 
 ```<PackageReference Include="bolzplatzarena.aspnetcore" Version="0.0.3" />```
 
-
 ## The tag helpers
 
 The tag helpers provided by this package, extend the razor view by some new features
@@ -46,7 +45,6 @@ Inlines the script given into the html, no request to the server by the client i
 Inlines the style given into the html, no request to the server by the client is made to access the style file.
 
 ```<inline-style src="css/styles.css"></inline-style>```
-
 
 ### Image
 
