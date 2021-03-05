@@ -6,6 +6,8 @@ Provides a set of features to extend AspNetCore
 
 ## Install
 
+(https://www.nuget.org/packages/bolzplatzarena.aspnetcore/)
+
 ### Package Manager
 
 ```Install-Package bolzplatzarena.aspnetcore -Version 0.0.3```
@@ -17,7 +19,6 @@ Provides a set of features to extend AspNetCore
 ### PackageReference
 
 ```<PackageReference Include="bolzplatzarena.aspnetcore" Version="0.0.3" />```
-
 
 ## The tag helpers
 
@@ -37,17 +38,16 @@ This enables the new tags in all of your view
 
 Inlines the script given into the html, no request to the server by the client is made to access the script file.
 
-```<inline-script src="assets/js/scripts.js"></inline-script>````
+```<inline-script src="assets/js/scripts.js"></inline-script>```
 
 #### Styles
 
 Inlines the style given into the html, no request to the server by the client is made to access the style file.
 
-```<inline-style src="css/styles.css"></inline-style>````
-
+```<inline-style src="css/styles.css"></inline-style>```
 
 ### Image
 
 Inlines the image given into the html, no request to the server by the client is made to access the image file.
 
-```<inline-image src="asset/image.png" alt="alternative description"></inline-image>````
+```<inline-image src="asset/image.png" alt="alternative description"></inline-image>```
